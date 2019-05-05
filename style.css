@@ -1,0 +1,87 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+html {
+  font-size: 20px;
+}
+body {
+  background: #efefef;
+  font-family: "Futura", sans-serif;
+  padding: 3vmax;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  line-height: 1;
+  font-weight: 400;
+}
+
+p {
+  font-family: "Century";
+  color: #555;
+  line-height: 1.7;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.wrapper {
+  max-width: 70rem;
+  margin: 0 auto;
+}
+
+.site-header h1 {
+  font-family: "Century";
+  font-weight: 300;
+  font-size: 1rem;
+  text-align: center;
+  font-style: italic;
+}
+
+.story {
+  margin: 1rem auto;
+}
+
+.content {
+  max-width: 44rem;
+  margin: 1rem auto;
+}
+
+.story-header {
+  margin-bottom: 3rem;
+}
+
+.story-header h2 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1vw;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.gallery img {
+  margin: 0.25rem;
+  flex: 45%;
+}
+.gallery img:nth-child(3n) {
+  flex: 100%;
+}
